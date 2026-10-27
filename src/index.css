@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Great+Vibes&display=swap');
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+  margin: 0;
+  background: #d5d0c7;
+}
+
+body {
+  font-family: "Cormorant Garamond", serif;
+  color: #3f1b14;
+}
+
+section {
+  scroll-margin-top: 20px;
+}
